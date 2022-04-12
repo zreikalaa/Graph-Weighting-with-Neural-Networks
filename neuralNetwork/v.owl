@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/CrmBnF#"
+     xml:base="http://www.semanticweb.org/CrmBnF"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:CrmBnF="http://www.semanticweb.org/CrmBnF_test#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/CrmBnF_test"/>
+	
+	<owl:Class rdf:about="http://www.semanticweb.org/CrmBnF#événement"/>
+	
+	<owl:Class rdf:about="http://www.semanticweb.org/CrmBnF#Traitement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/CrmBnF#événement"/>
+    </owl:Class>
+	
+	<owl:Class rdf:about="http://www.semanticweb.org/CrmBnF#Dégradation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/CrmBnF#événement"/>
+    </owl:Class>
+	
+	<owl:Class rdf:about="http://www.semanticweb.org/CrmBnF#Consolidation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/CrmBnF#Traitement"/>
+    </owl:Class>
+	
+	<owl:Class rdf:about="http://www.semanticweb.org/CrmBnF#Consolidation_couvrure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/CrmBnF#Consolidation"/>
+    </owl:Class>
+	
+	<owl:Class rdf:about="http://www.semanticweb.org/CrmBnF#K_réparation_reliure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/CrmBnF#Consolidation_couvrure"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T181</Id>
+    </owl:Class>
+	
+	<owl:Class rdf:about="http://www.semanticweb.org/CrmBnF#A1_Réemboîtage._Dans_couverture_d&apos;origine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/CrmBnF#K_réparation_reliure"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T20</Id>
+    </owl:Class>
+	
+	<owl:Class rdf:about="http://www.semanticweb.org/CrmBnF#A2_Réemboîtage._Dans_nouvelle_couverture">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/CrmBnF#K4_Remboîtage"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/CrmBnF#K_réparation_reliure"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T21</Id>
+    </owl:Class>
+	
+	<owl:Class rdf:about="http://www.semanticweb.org/CrmBnF#Cuir">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/CrmBnF#K_réparation_reliure"/>
+    </owl:Class>
+	
+	<owl:Class rdf:about="http://www.semanticweb.org/CrmBnF#Kc_réparation_cuir">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/CrmBnF#_K3_Réparation_reliure._Cuir"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/CrmBnF#Cuir"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T203</Id>
+    </owl:Class>
+	
+	<owl:Class rdf:about="http://www.semanticweb.org/CrmBnF#Corps">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/CrmBnF#Dégradation"/>
+    </owl:Class>
+	
+	<owl:Class rdf:about="http://www.semanticweb.org/CrmBnF#Cahiers">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/CrmBnF#Corps"/>
+    </owl:Class>
+	
+	<owl:Class rdf:about="http://www.semanticweb.org/CrmBnF#CORPS.CAHIERS.Détaché">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/CrmBnF#Cahiers"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/CrmBnF#CORPS.CAHIERS.Manquant"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D114</Id>
+    </owl:Class>
+	
+	<owl:Class rdf:about="http://www.semanticweb.org/CrmBnF#CORPS.CAHIERS.Manquant">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/CrmBnF#Cahiers"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D115</Id>
+    </owl:Class>
+	
+	
+	
+</rdf:RDF>

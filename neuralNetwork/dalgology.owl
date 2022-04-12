@@ -1,0 +1,4216 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/Dalgology#"
+     xml:base="http://www.semanticweb.org/Dalgology"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:Dalgology="http://www.semanticweb.org/Dalgology#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/Dalgology"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#Id -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/Dalgology#Id">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#A2_Réemboîtage._Dans_nouvelle_couverture -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#A2_Réemboîtage._Dans_nouvelle_couverture">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/Dalgology#K4_Remboîtage"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#K_réparation_reliure"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T21</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#A_rembobiner -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#A_rembobiner">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Support"/>
+        <Id>D165</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#Accompagnement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#Accompagnement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Dégradation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#Adresse -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#Adresse">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Etiquette"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#Autre -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#Autre">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Etiquette"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#Avec_plastification -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#Avec_plastification">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Equipement_léger"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#B1_Boîte_en_carton_ondulé -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#B1_Boîte_en_carton_ondulé">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/Dalgology#_B6_Conditionnement._Boîte_main_en_carton_habillé_type_BnF"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Boîte"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T303</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#B2_Boîte_légère -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#B2_Boîte_légère">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/Dalgology#_B12_Conditionnement._Boîte_légère_sur_mesure"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Boîte"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T304</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#B3_Boîte_à_comblage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#B3_Boîte_à_comblage">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/Dalgology#_B11_Conditionnement._Boîte_légère_sur_mesure_avec_comblage"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#_B12_Conditionnement._Boîte_légère_sur_mesure"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T305</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#B5_Pochette_synthétique -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#B5_Pochette_synthétique">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/Dalgology#_B4_Conditionnement._Pochette_sur_mesure"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Pochette"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T307</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#B6_Chemise_à_languettes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#B6_Chemise_à_languettes">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/Dalgology#_B2_Conditionnement._Chemise_sur_mesure"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Conditionnement"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T308</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#Blanchiment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#Blanchiment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Support"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D152</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#Boîte -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#Boîte">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Conditionnement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#Boîte_déchirée -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#Boîte_déchirée">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Degradation_Conditionnement"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D170</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#Boîte_métallique -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#Boîte_métallique">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Degradation_Conditionnement"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D181</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#Boîtier_cassé -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#Boîtier_cassé">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Degradation_Conditionnement"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D171</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#C0_à_changer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#C0_à_changer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Support"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D164</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#C1_Couvrure._Pleine_toile -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#C1_Couvrure._Pleine_toile">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Couvrure"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T12</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#C2_Couvrure._Demi-toile -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#C2_Couvrure._Demi-toile">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Couvrure"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T13</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#C31_Couvrure._Peau_plein-chagrin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#C31_Couvrure._Peau_plein-chagrin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Couvrure"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T30</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#C32_Couvrure._Peau_plein-veau -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#C32_Couvrure._Peau_plein-veau">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Couvrure"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T31</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#C33_Couvrure._Peau_plein-maroquin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#C33_Couvrure._Peau_plein-maroquin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Couvrure"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T32</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#C34_Couvrure._Peau_plein-parchemin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#C34_Couvrure._Peau_plein-parchemin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Couvrure"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T33</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#C35_Couvrure._Peau_plein-buffle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#C35_Couvrure._Peau_plein-buffle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Couvrure"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T463</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#C3_Ever -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#C3_Ever">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Couvrure"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T14</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#C41_Couvrure._Peau_demi-chagrin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#C41_Couvrure._Peau_demi-chagrin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Couvrure"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T34</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#C42_Couvrure._Peau_demi-veau -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#C42_Couvrure._Peau_demi-veau">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Couvrure"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T35</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#C43_Couvrure._Peau_demi-maroquin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#C43_Couvrure._Peau_demi-maroquin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Couvrure"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T36</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#C44_Couvrure._Peau_demi-parchemin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#C44_Couvrure._Peau_demi-parchemin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Couvrure"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T37</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#C45_Couvrure._Peau_demi-buffle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#C45_Couvrure._Peau_demi-buffle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Couvrure"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T483</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#C4_Ever. -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#C4_Ever.">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Couvrure"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T15</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#C51_avec_Couverture__Broché_Collée -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#C51_avec_Couverture__Broché_Collée">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Couvrure"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T604</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#C5_Couvrure._Plein_papier -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#C5_Couvrure._Plein_papier">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Couvrure"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T16</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#C6_Ever. -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#C6_Ever.">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Couvrure"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T17</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#C7_Ever. -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#C7_Ever.">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Couvrure"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T18</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#C8_Ever. -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#C8_Ever.">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Couvrure"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T19</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#CFC -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#CFC">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Reliure_léger"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#CORPS.CAHIERS.Détaché -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#CORPS.CAHIERS.Détaché">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Cahiers"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/Dalgology#CORPS.CAHIERS.Manquant"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D114</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#CORPS.CAHIERS.Manquant -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#CORPS.CAHIERS.Manquant">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Cahiers"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D115</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#CORPS.FEUILLETS.Détaché -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#CORPS.FEUILLETS.Détaché">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Feuillets"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/Dalgology#CORPS.FEUILLETS.Manquant"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D116</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#CORPS.FEUILLETS.Manquant -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#CORPS.FEUILLETS.Manquant">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Feuillets"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D117</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#CORPS.HORSTEXTE.Dégradé -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#CORPS.HORSTEXTE.Dégradé">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Hors_texte"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D119</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#CORPS.HORSTEXTE.Détaché -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#CORPS.HORSTEXTE.Détaché">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Hors_texte"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D118</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#CORPS.HORSTEXTE.Manquant -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#CORPS.HORSTEXTE.Manquant">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Hors_texte"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D120</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#CORPS.PAPIER.Acide -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#CORPS.PAPIER.Acide">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Papier"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D109</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#CORPS.PAPIER.Déchirures -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#CORPS.PAPIER.Déchirures">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Papier"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D102</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#CORPS.PAPIER.Dédoublement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#CORPS.PAPIER.Dédoublement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Papier"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D106</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#CORPS.PAPIER.Déformé -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#CORPS.PAPIER.Déformé">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Papier"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D111</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#CORPS.PAPIER.Fragilisé -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#CORPS.PAPIER.Fragilisé">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Papier"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D108</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#CORPS.PAPIER.Lacunes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#CORPS.PAPIER.Lacunes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Papier"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D104</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#CORPS.PAPIER.Matériaux_répar._Inadéquats -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#CORPS.PAPIER.Matériaux_répar._Inadéquats">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Papier"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D107</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#CORPS.PAPIER.Mouillures -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#CORPS.PAPIER.Mouillures">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Papier"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D105</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#CORPS.PAPIER.Pliures -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#CORPS.PAPIER.Pliures">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Papier"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D103</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#CORPS.PAPIER.Ruines_et_miettes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#CORPS.PAPIER.Ruines_et_miettes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Papier"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D110</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#CORPS.PAPIER.Salissures -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#CORPS.PAPIER.Salissures">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Papier"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D101</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#CORPS.STRUCTURECOUTURE.Coupé -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#CORPS.STRUCTURECOUTURE.Coupé">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Structure_couture"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/Dalgology#CORPS.STRUCTURECOUTURE.Dégradé"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D112</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#CORPS.STRUCTURECOUTURE.Dégradé -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#CORPS.STRUCTURECOUTURE.Dégradé">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Structure_couture"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D113</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#COUV.COIFFEINF.Dégradé -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#COUV.COIFFEINF.Dégradé">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Coiffeinf"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D47</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#COUV.COIFFEINF.Détaché_complètement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#COUV.COIFFEINF.Détaché_complètement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Coiffeinf"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D49</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#COUV.COIFFEINF.Détaché_partiellement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#COUV.COIFFEINF.Détaché_partiellement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Coiffeinf"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D48</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#COUV.COIFFEINF.Manquante -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#COUV.COIFFEINF.Manquante">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Coiffeinf"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D50</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#COUV.COIFFESUP.Dégradé -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#COUV.COIFFESUP.Dégradé">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Coiffesup"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D43</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#COUV.COIFFESUP.Détaché_complètement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#COUV.COIFFESUP.Détaché_complètement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Coiffesup"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D45</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#COUV.COIFFESUP.Détaché_partiellement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#COUV.COIFFESUP.Détaché_partiellement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Coiffesup"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D44</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#COUV.COIFFESUP.Manquante -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#COUV.COIFFESUP.Manquante">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Coiffesup"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D46</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#COUV.COINS.Déformés -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#COUV.COINS.Déformés">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Coins"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D54</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#COUV.COINS.Emoussés -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#COUV.COINS.Emoussés">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Coins"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D52</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#COUV.COINS.Lacunes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#COUV.COINS.Lacunes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Coins"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D53</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#COUV.COINS.Usure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#COUV.COINS.Usure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Coins"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D51</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#COUV.DOS.Déchirures -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#COUV.DOS.Déchirures">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Dos"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D31</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#COUV.DOS.Décollement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#COUV.DOS.Décollement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Dos"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D32</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#COUV.DOS.Dégradé -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#COUV.DOS.Dégradé">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Dos"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D25</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#COUV.DOS.Détaché_complètement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#COUV.DOS.Détaché_complètement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Dos"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D27</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#COUV.DOS.Détaché_partiellement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#COUV.DOS.Détaché_partiellement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Dos"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D26</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#COUV.DOS.Fragilisé -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#COUV.DOS.Fragilisé">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Dos"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D35</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#COUV.DOS.Lacunes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#COUV.DOS.Lacunes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Dos"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D33</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#COUV.DOS.Manquant -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#COUV.DOS.Manquant">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Dos"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D28</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#COUV.DOS.Matériaux_répar._Inadéquats -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#COUV.DOS.Matériaux_répar._Inadéquats">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Dos"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D36</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#COUV.DOS.Mouillures -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#COUV.DOS.Mouillures">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Dos"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D34</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#COUV.DOS.Salissures -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#COUV.DOS.Salissures">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Dos"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D30</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#COUV.DOS.Usure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#COUV.DOS.Usure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Dos"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D29</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#COUV.JAQUETTE.Déchirures -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#COUV.JAQUETTE.Déchirures">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Jaquette"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/Dalgology#COUV.JAQUETTE.Dégradé"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D59</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#COUV.JAQUETTE.Dégradé -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#COUV.JAQUETTE.Dégradé">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Jaquette"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D60</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#COUV.MORSINF.Coupé_complètement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#COUV.MORSINF.Coupé_complètement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Mors_inf"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D41</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#COUV.MORSINF.Coupé_partiellement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#COUV.MORSINF.Coupé_partiellement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Mors_inf"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D40</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#COUV.MORSINF.Usure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#COUV.MORSINF.Usure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Mors_inf"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D42</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#COUV.MORSSUP.Coupé_complètement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#COUV.MORSSUP.Coupé_complètement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Mors_sup"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D38</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#COUV.MORSSUP.Coupé_partiellement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#COUV.MORSSUP.Coupé_partiellement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Mors_sup"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D37</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#COUV.MORSSUP.Usure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#COUV.MORSSUP.Usure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Mors_sup"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D39</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#COUV.PLATINF.Déchirures -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#COUV.PLATINF.Déchirures">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Plat_inf"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D19</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#COUV.PLATINF.Décollement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#COUV.PLATINF.Décollement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Plat_inf"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D20</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#COUV.PLATINF.Dégradé -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#COUV.PLATINF.Dégradé">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Plat_inf"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D13</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#COUV.PLATINF.Détaché_complètement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#COUV.PLATINF.Détaché_complètement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Plat_inf"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D15</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#COUV.PLATINF.Détaché_partiellement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#COUV.PLATINF.Détaché_partiellement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Plat_inf"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D14</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#COUV.PLATINF.Fragilisé -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#COUV.PLATINF.Fragilisé">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Plat_inf"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D23</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#COUV.PLATINF.Lacunes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#COUV.PLATINF.Lacunes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Plat_inf"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D21</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#COUV.PLATINF.Manquant -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#COUV.PLATINF.Manquant">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Plat_inf"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D16</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#COUV.PLATINF.Matériaux_répar._inadéquats -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#COUV.PLATINF.Matériaux_répar._inadéquats">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Plat_inf"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D24</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#COUV.PLATINF.Mouillures -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#COUV.PLATINF.Mouillures">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Plat_inf"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D22</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#COUV.PLATINF.Salissures -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#COUV.PLATINF.Salissures">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Plat_inf"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D18</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#COUV.PLATINF.Usure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#COUV.PLATINF.Usure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Plat_inf"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D17</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#COUV.PLATSUP.Déchirures -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#COUV.PLATSUP.Déchirures">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Plat_sup"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D7</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#COUV.PLATSUP.Décollement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#COUV.PLATSUP.Décollement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Plat_sup"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D8</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#COUV.PLATSUP.Dégradé -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#COUV.PLATSUP.Dégradé">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Plat_sup"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D1</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#COUV.PLATSUP.Détaché_complètement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#COUV.PLATSUP.Détaché_complètement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Plat_sup"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D3</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#COUV.PLATSUP.Détaché_partiellement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#COUV.PLATSUP.Détaché_partiellement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Plat_sup"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D2</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#COUV.PLATSUP.Fragilisé -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#COUV.PLATSUP.Fragilisé">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Plat_sup"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D11</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#COUV.PLATSUP.Lacunes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#COUV.PLATSUP.Lacunes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Plat_sup"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D9</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#COUV.PLATSUP.Manquant -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#COUV.PLATSUP.Manquant">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Plat_sup"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D4</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#COUV.PLATSUP.Matériaux_répar._inadéquats -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#COUV.PLATSUP.Matériaux_répar._inadéquats">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Plat_sup"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D12</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#COUV.PLATSUP.Mouillures -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#COUV.PLATSUP.Mouillures">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Plat_sup"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D10</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#COUV.PLATSUP.Salissures -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#COUV.PLATSUP.Salissures">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Plat_sup"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D6</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#COUV.PLATSUP.Usure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#COUV.PLATSUP.Usure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Plat_sup"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D5</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#COUV.TITRAGE.Détaché -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#COUV.TITRAGE.Détaché">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Titrage"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D57</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#COUV.TITRAGE.Erroné -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#COUV.TITRAGE.Erroné">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Titrage"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D58</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#COUV.TITRAGE.Illisible -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#COUV.TITRAGE.Illisible">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Titrage"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D55</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#COUV.TITRAGE.Manquant -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#COUV.TITRAGE.Manquant">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Titrage"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D56</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#Cahiers -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#Cahiers">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Corps"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#Cassette_vidéo_inondée -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#Cassette_vidéo_inondée">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Support"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D158</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#Cassé -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#Cassé">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Support"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D149</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#Charniere_inf -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#Charniere_inf">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Gardes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#Charniere_sup -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#Charniere_sup">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Gardes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#Clivage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#Clivage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Traitement_papier"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#Code_barre -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#Code_barre">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Etiquette"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#Coiffeinf -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#Coiffeinf">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Degradation_Couvrure"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#Coiffesup -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#Coiffesup">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Degradation_Couvrure"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#Coins -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#Coins">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Degradation_Couvrure"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#Coloration -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#Coloration">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Support"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D162</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#Communication -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#Communication">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#événement"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COMMUNICATION</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#Conditionnement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#Conditionnement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Traitement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#Conditionnement_insuffisant_pour_2_disques -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#Conditionnement_insuffisant_pour_2_disques">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Degradation_Conditionnement"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D182</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#Consolidation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#Consolidation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Traitement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#Consolidation_couvrure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#Consolidation_couvrure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Consolidation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#Contreplat_inf -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#Contreplat_inf">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Gardes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#Contreplat_sup -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#Contreplat_sup">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Gardes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#Corps -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#Corps">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Dégradation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#Cotation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#Cotation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Etiquette"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#Couture -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#Couture">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Reliure_mécanisée"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#Couvrure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#Couvrure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Traitement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#Craquelures -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#Craquelures">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Support"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D153</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#Cuir -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#Cuir">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#K_réparation_reliure"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#D1_Débrochage._Feuillets -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#D1_Débrochage._Feuillets">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Débrochage"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T38</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#D2_Débrochage._Cahiers -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#D2_Débrochage._Cahiers">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Débrochage"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T39</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#D3_Débrochage._Surjeté -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#D3_Débrochage._Surjeté">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Débrochage"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T40</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#D4_Débrochage._Encarté -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#D4_Débrochage._Encarté">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Débrochage"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T41</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#D5_Débrochage._Hors-norme -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#D5_Débrochage._Hors-norme">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Débrochage"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T42</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#Degradation_Conditionnement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#Degradation_Conditionnement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Dégradation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#Degradation_Couvrure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#Degradation_Couvrure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Dégradation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#Digipak -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#Digipak">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Degradation_Conditionnement"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D180</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#Document_papier_à_restaurer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#Document_papier_à_restaurer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Accompagnement"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D183</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#Dos -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#Dos">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Degradation_Couvrure"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#Doublage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#Doublage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Traitement_papier"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#Débrochage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#Débrochage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Traitement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#Déchirures -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#Déchirures">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Garde_sup"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D72</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#Défaut_de_matière -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#Défaut_de_matière">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Support"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D159</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#Défectueux -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#Défectueux">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Support"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D150</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#Dégradation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#Dégradation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#événement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#Dégradé -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#Dégradé">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Degradation_Conditionnement"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D140</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#Délamellation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#Délamellation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Support"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D154</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#E1_Equipement_léger._Sans_plastification -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#E1_Equipement_léger._Sans_plastification">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Equipement_léger"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T8</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#E2_Equipement_léger._Plastification_adhésive -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#E2_Equipement_léger._Plastification_adhésive">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Avec_plastification"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T9</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#E3_Equipement_léger._Jaquette_sous_liseuse -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#E3_Equipement_léger._Jaquette_sous_liseuse">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Avec_plastification"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T10</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#E4_Equipement_léger._Plastification_encarté -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#E4_Equipement_léger._Plastification_encarté">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Avec_plastification"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T43</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#E7_Equipement_léger._Plastification_document_en_feuille -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#E7_Equipement_léger._Plastification_document_en_feuille">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Avec_plastification"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T45</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#E8_Equipement_léger._Mise_sous_CFC_2003_de_brochure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#E8_Equipement_léger._Mise_sous_CFC_2003_de_brochure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Equipement_léger"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T46</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#ETIQUETTE.ADRESSE.Dégradé -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#ETIQUETTE.ADRESSE.Dégradé">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Adresse"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D125</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#ETIQUETTE.ADRESSE.Détaché -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#ETIQUETTE.ADRESSE.Détaché">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Adresse"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D124</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#ETIQUETTE.ADRESSE.Illisible -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#ETIQUETTE.ADRESSE.Illisible">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Adresse"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D126</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#ETIQUETTE.ADRESSE.Manquant -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#ETIQUETTE.ADRESSE.Manquant">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Adresse"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D127</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#ETIQUETTE.AUTRE.Dégradé -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#ETIQUETTE.AUTRE.Dégradé">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Autre"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D137</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#ETIQUETTE.AUTRE.Détaché -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#ETIQUETTE.AUTRE.Détaché">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Autre"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D136</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#ETIQUETTE.AUTRE.Illisible -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#ETIQUETTE.AUTRE.Illisible">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Autre"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D138</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#ETIQUETTE.AUTRE.Manquant -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#ETIQUETTE.AUTRE.Manquant">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Autre"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D139</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#ETIQUETTE.CODEBARRE.Dégradé -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#ETIQUETTE.CODEBARRE.Dégradé">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Code_barre"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D129</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#ETIQUETTE.CODEBARRE.Détaché -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#ETIQUETTE.CODEBARRE.Détaché">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Code_barre"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D128</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#ETIQUETTE.CODEBARRE.Illisible -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#ETIQUETTE.CODEBARRE.Illisible">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Code_barre"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D130</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#ETIQUETTE.CODEBARRE.Manquant -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#ETIQUETTE.CODEBARRE.Manquant">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Code_barre"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D131</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#ETIQUETTE.COTATION.Dégradé -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#ETIQUETTE.COTATION.Dégradé">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Cotation"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D133</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#ETIQUETTE.COTATION.Détaché -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#ETIQUETTE.COTATION.Détaché">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Cotation"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D132</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#ETIQUETTE.COTATION.Illisible -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#ETIQUETTE.COTATION.Illisible">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Cotation"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D134</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#ETIQUETTE.COTATION.Manquant -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#ETIQUETTE.COTATION.Manquant">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Cotation"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D135</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#Ebréché -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#Ebréché">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Support"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D148</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#Equipement_léger -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#Equipement_léger">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Traitement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#Etiquette -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#Etiquette">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Dégradation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#Etiquette_défectueuse -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#Etiquette_défectueuse">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Support"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D156</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#F1N_Reproduction_105_mm._Copie_de_consultation_négative -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#F1N_Reproduction_105_mm._Copie_de_consultation_négative">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Microfiche"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T47</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#F1P_Reproduction_105_mm._Copie_de_consultation_positive -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#F1P_Reproduction_105_mm._Copie_de_consultation_positive">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Microfiche"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T141</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#F1_Microfiche_noir_et_blanc -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#F1_Microfiche_noir_et_blanc">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Microfiche"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T342</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#F2_Microfiche_couleur -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#F2_Microfiche_couleur">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Microfiche"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T343</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#Feuillets -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#Feuillets">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Corps"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#Fragilisé -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#Fragilisé">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Garde_sup"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D76</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#Fêlé -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#Fêlé">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Support"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D147</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#GARDES.CHARNIEREINF.Coupé_complètement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#GARDES.CHARNIEREINF.Coupé_complètement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Charniere_inf"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/Dalgology#GARDES.CHARNIEREINF.Coupé_partiellement"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D100</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#GARDES.CHARNIEREINF.Coupé_partiellement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#GARDES.CHARNIEREINF.Coupé_partiellement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Charniere_inf"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D99</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#GARDES.CHARNIERESUP.Coupé_complètement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#GARDES.CHARNIERESUP.Coupé_complètement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Charniere_sup"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/Dalgology#GARDES.CHARNIERESUP.Coupé_partiellement"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D79</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#GARDES.CHARNIERESUP.Coupé_partiellement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#GARDES.CHARNIERESUP.Coupé_partiellement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Charniere_sup"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D80</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#GARDES.CONTREPLATINF.Déchirures -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#GARDES.CONTREPLATINF.Déchirures">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Contreplat_inf"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D83</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#GARDES.CONTREPLATINF.Décollement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#GARDES.CONTREPLATINF.Décollement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Contreplat_inf"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D84</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#GARDES.CONTREPLATINF.Fragilisé -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#GARDES.CONTREPLATINF.Fragilisé">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Contreplat_inf"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D87</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#GARDES.CONTREPLATINF.Lacunes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#GARDES.CONTREPLATINF.Lacunes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Contreplat_inf"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D85</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#GARDES.CONTREPLATINF.Manquant -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#GARDES.CONTREPLATINF.Manquant">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Contreplat_inf"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D89</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#GARDES.CONTREPLATINF.Matériaux_répar._inadéquats -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#GARDES.CONTREPLATINF.Matériaux_répar._inadéquats">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Contreplat_inf"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D88</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#GARDES.CONTREPLATINF.Mouillures -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#GARDES.CONTREPLATINF.Mouillures">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Contreplat_inf"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D86</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#GARDES.CONTREPLATINF.Salissures -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#GARDES.CONTREPLATINF.Salissures">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Contreplat_inf"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D82</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#GARDES.CONTREPLATINF.Usure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#GARDES.CONTREPLATINF.Usure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Contreplat_inf"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D81</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#GARDES.CONTREPLATSUP.Déchirures -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#GARDES.CONTREPLATSUP.Déchirures">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Contreplat_sup"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D63</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#GARDES.CONTREPLATSUP.Décollement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#GARDES.CONTREPLATSUP.Décollement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Contreplat_sup"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D64</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#GARDES.CONTREPLATSUP.Fragilisé -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#GARDES.CONTREPLATSUP.Fragilisé">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Contreplat_sup"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D67</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#GARDES.CONTREPLATSUP.Lacunes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#GARDES.CONTREPLATSUP.Lacunes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Contreplat_sup"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D65</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#GARDES.CONTREPLATSUP.Manquant -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#GARDES.CONTREPLATSUP.Manquant">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Contreplat_sup"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D69</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#GARDES.CONTREPLATSUP.Matériaux_répar._Inadéquats -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#GARDES.CONTREPLATSUP.Matériaux_répar._Inadéquats">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Contreplat_sup"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D68</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#GARDES.CONTREPLATSUP.Mouillures -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#GARDES.CONTREPLATSUP.Mouillures">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Contreplat_sup"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D66</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#GARDES.CONTREPLATSUP.Salissures -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#GARDES.CONTREPLATSUP.Salissures">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Contreplat_sup"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D62</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#GARDES.CONTREPLATSUP.Usure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#GARDES.CONTREPLATSUP.Usure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Contreplat_sup"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D61</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#GARDES.GARDEINF.Déchirures -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#GARDES.GARDEINF.Déchirures">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Garde_inf"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D92</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#GARDES.GARDEINF.Fragilisé -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#GARDES.GARDEINF.Fragilisé">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Garde_inf"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D96</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#GARDES.GARDEINF.Lacunes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#GARDES.GARDEINF.Lacunes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Garde_inf"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D93</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#GARDES.GARDEINF.Manquant -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#GARDES.GARDEINF.Manquant">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Garde_inf"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D98</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#GARDES.GARDEINF.Matériaux_répar._Inadéquats -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#GARDES.GARDEINF.Matériaux_répar._Inadéquats">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Garde_inf"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D97</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#GARDES.GARDEINF.Mouillures -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#GARDES.GARDEINF.Mouillures">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Garde_inf"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D94</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#GARDES.GARDEINF.Pliures -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#GARDES.GARDEINF.Pliures">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Garde_inf"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D95</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#GARDES.GARDEINF.Salissures -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#GARDES.GARDEINF.Salissures">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Garde_inf"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D91</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#GARDES.GARDEINF.Usure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#GARDES.GARDEINF.Usure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Garde_inf"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D90</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#Garde_inf -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#Garde_inf">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Gardes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#Garde_sup -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#Garde_sup">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Gardes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#Gardes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#Gardes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Dégradation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#H1_Numérisation._Document_papier -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#H1_Numérisation._Document_papier">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Numérisation"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T51</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#H2_Numérisation._Microfilm -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#H2_Numérisation._Microfilm">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Numérisation"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T52</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#H3_Numérisation._Microfiche -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#H3_Numérisation._Microfiche">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Numérisation"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T53</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#H4_Numérisation._Prise_de_vue_numérique_et_micrographique -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#H4_Numérisation._Prise_de_vue_numérique_et_micrographique">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Numérisation"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T54</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#Hors_texte -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#Hors_texte">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Corps"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#Inadapté -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#Inadapté">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Degradation_Conditionnement"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D142</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#J00_Maintenance._Couture_monocahier_en_carte_neutre -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#J00_Maintenance._Couture_monocahier_en_carte_neutre">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/Dalgology#J8_Carte_neutre_pour_mono-cahiers"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Reliure_léger"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T55</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#J01_Maintenance._Couture_brochée_de_conservation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#J01_Maintenance._Couture_brochée_de_conservation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Reliure_léger"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T56</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#J02_Maintenance._Couture_brochée_de_cons_avec_couv_souple -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#J02_Maintenance._Couture_brochée_de_cons_avec_couv_souple">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Reliure_léger"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T57</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#J1__Dépoussiérage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#J1__Dépoussiérage">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/Dalgology#JDép_Maintenance._Dépoussiérage"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Nettoyage"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T282</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#J2_Maintenance_Gommage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#J2_Maintenance_Gommage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Nettoyage"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T283</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#J3_Découronnage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#J3_Découronnage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Maintenance_corps_d&apos;ouvrage"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T284</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#J4__Réparations_de_déchirures -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#J4__Réparations_de_déchirures">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Maintenance_corps_d&apos;ouvrage"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T285</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#J7_Remise_à_plat -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#J7_Remise_à_plat">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Maintenance_corps_d&apos;ouvrage"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T287</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#J8_Carte_neutre_pour_mono-cahiers -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#J8_Carte_neutre_pour_mono-cahiers">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Reliure_léger"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T288</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#J91_CFC2003_Mono_cahier -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#J91_CFC2003_Mono_cahier">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#CFC"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T322</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#J92_CFC2003_Pluri_cahier -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#J92_CFC2003_Pluri_cahier">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#CFC"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T323</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#J9_CFC_2003 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#J9_CFC_2003">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#CFC"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T289</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#JDép_Maintenance._Dépoussiérage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#JDép_Maintenance._Dépoussiérage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Nettoyage"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T67</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#J_Maintenance_moins_2_heures -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#J_Maintenance_moins_2_heures">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Traitement"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T161</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#Japon -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#Japon">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#K_réparation_reliure"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#Jaquette -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#Jaquette">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Degradation_Couvrure"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#Jaquette_inondée -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#Jaquette_inondée">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Accompagnement"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D184</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#K1_Consolidation_cuir -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#K1_Consolidation_cuir">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/Dalgology#Kc_réparation_cuir"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Cuir"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T290</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#K2_consolidation_Japon -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#K2_consolidation_Japon">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/Dalgology#_K1_Réparation_reliure._Japon_niveau_1"/>
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/Dalgology#_K2_Réparation_reliure._Japon_niveau_2"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Japon"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T291</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#K3_Rattachement_de_plats -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#K3_Rattachement_de_plats">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#K_réparation_reliure"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T292</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#K4_Remboîtage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#K4_Remboîtage">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/Dalgology#A1_Réemboîtage._Dans_couverture_d&apos;origine"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#K_réparation_reliure"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T302</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#K_réparation_reliure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#K_réparation_reliure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Consolidation_couvrure"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T181</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#Kc_réparation_cuir -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#Kc_réparation_cuir">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/Dalgology#_K3_Réparation_reliure._Cuir"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Cuir"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T203</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#Kp_réparation_papier -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#Kp_réparation_papier">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#K5_Traitement_corps_d&apos;ouvrage"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T204</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#L1_Maintenance_titrage._Création_titrage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#L1_Maintenance_titrage._Création_titrage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Maintenance_titrage"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T71</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#L2_Maintenance_titrage._Création_pièce_de_titre -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#L2_Maintenance_titrage._Création_pièce_de_titre">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Maintenance_titrage"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T72</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#L31_Maintenance_titrage._Remplacement_1_pièce_de_titre -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#L31_Maintenance_titrage._Remplacement_1_pièce_de_titre">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Maintenance_titrage"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T422</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#L32_Maintenance_titrage._Remplacement_2_pièces_de_titre -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#L32_Maintenance_titrage._Remplacement_2_pièces_de_titre">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Maintenance_titrage"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T423</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#L3_Maintenance_titrage._Remplacement_pièce_de_titre -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#L3_Maintenance_titrage._Remplacement_pièce_de_titre">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Maintenance_titrage"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T73</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#L4_Maintenance_titrage._Correction_titrage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#L4_Maintenance_titrage._Correction_titrage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Maintenance_titrage"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T74</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#L5_Maintenance_titrage._Reprise_dorure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#L5_Maintenance_titrage._Reprise_dorure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Maintenance_titrage"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T75</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#Lacunes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#Lacunes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Garde_sup"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D73</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#M1_Reliure_main._Couture_sur_cahiers -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#M1_Reliure_main._Couture_sur_cahiers">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Reliure_main"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T76</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#M2_Reliure_main._Couture_sur_surjets -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#M2_Reliure_main._Couture_sur_surjets">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Reliure_main"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T77</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#M3_Reliure_main._Sur_nerfs -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#M3_Reliure_main._Sur_nerfs">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Reliure_main"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T78</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#M4_Reliure_main._Couture_sur_onglet -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#M4_Reliure_main._Couture_sur_onglet">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Reliure_main"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T464</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#M5_Reliure_main._Couture_sur_toile -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#M5_Reliure_main._Couture_sur_toile">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Reliure_main"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T603</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#Maintenance_couverture -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#Maintenance_couverture">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#J_Maintenance_moins_2_heures"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#Maintenance_cuir -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#Maintenance_cuir">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Maintenance_couverture"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#Maintenance_titrage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#Maintenance_titrage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Traitement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#Maintenance_toile -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#Maintenance_toile">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Maintenance_couverture"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#Manquant -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#Manquant">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Garde_sup"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D78</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#Matériaux_répar._Inadéquats -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#Matériaux_répar._Inadéquats">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Garde_sup"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D77</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#Microfiche -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#Microfiche">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Traitement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#Moisissures -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#Moisissures">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Support"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D144</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#Montage_couverture -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#Montage_couverture">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Débrochage"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#Mors_inf -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#Mors_inf">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Degradation_Couvrure"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#Mors_sup -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#Mors_sup">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Degradation_Couvrure"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#Mouillures -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#Mouillures">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Garde_sup"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D74</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#N01_Numérisation_de_masse -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#N01_Numérisation_de_masse">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Numérisation"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T442</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#N101_numérisation_standard -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#N101_numérisation_standard">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Numérisation"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T523</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#N102_Numérisation_relié_en_partie_fragile -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#N102_Numérisation_relié_en_partie_fragile">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Numérisation"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T543</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#N103_Numérisation_relié_difficile -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#N103_Numérisation_relié_difficile">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Numérisation"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T544</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#Nettoyage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#Nettoyage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#J_Maintenance_moins_2_heures"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#Numérisation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#Numérisation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Traitement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#O01_OCR_type_A -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#O01_OCR_type_A">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#OCR"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T524</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#O02_OCR_type_B -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#O02_OCR_type_B">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#OCR"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T545</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#O03_OCR_type_C -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#O03_OCR_type_C">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#OCR"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T546</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#O04_OCR_type_D -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#O04_OCR_type_D">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#OCR"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T547</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#O05_OCR_type_E -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#O05_OCR_type_E">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#OCR"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T548</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#O06_OCR_type_F -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#O06_OCR_type_F">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#OCR"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T563</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#O07_OCR_type_G -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#O07_OCR_type_G">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#OCR"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T564</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#O08_OCR_type_H -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#O08_OCR_type_H">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#OCR"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T565</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#O09_OCR_type_I -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#O09_OCR_type_I">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#OCR"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T566</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#O10_OCR_type_J -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#O10_OCR_type_J">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#OCR"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T583</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#OCR -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#OCR">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Traitement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#P10_Traitement_de_masse_du_papier._Colmatage_seul -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#P10_Traitement_de_masse_du_papier._Colmatage_seul">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Traitement_papier"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T79</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#P11_Traitement_de_masse_du_papier._Renforcement_par_clivage_manuel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#P11_Traitement_de_masse_du_papier._Renforcement_par_clivage_manuel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Clivage"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/Dalgology#P12_Traitement_de_masse_du_papier._Renforcement_par_clivage_mécanisé"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T80</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#P12_Traitement_de_masse_du_papier._Renforcement_par_clivage_mécanisé -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#P12_Traitement_de_masse_du_papier._Renforcement_par_clivage_mécanisé">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Clivage"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T81</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#P2_Traitement_de_masse_du_papier._Renforcement_par_doublage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#P2_Traitement_de_masse_du_papier._Renforcement_par_doublage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Doublage"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T82</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#P3__doublage_thermocollage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#P3__doublage_thermocollage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Doublage"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T382</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#P4_doublage_japon -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#P4_doublage_japon">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Doublage"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T383</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#Papier -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#Papier">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Corps"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#Piqûres -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#Piqûres">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Support"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D155</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#Plat_inf -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#Plat_inf">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Degradation_Couvrure"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#Plat_sup -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#Plat_sup">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Degradation_Couvrure"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#Pliures -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#Pliures">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Garde_sup"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D75</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#Pochette -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#Pochette">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Conditionnement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#Pochette_carton_inadéquate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#Pochette_carton_inadéquate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Degradation_Conditionnement"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D178</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#Pochette_disque_inadéquate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#Pochette_disque_inadéquate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Degradation_Conditionnement"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D174</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#Pochette_moisie -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#Pochette_moisie">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Degradation_Conditionnement"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D175</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#Pochette_papier_inadéquate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#Pochette_papier_inadéquate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Degradation_Conditionnement"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D177</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#Pochette_plastique_inadéquate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#Pochette_plastique_inadéquate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Degradation_Conditionnement"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D179</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#Présence_de_mousses -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#Présence_de_mousses">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Degradation_Conditionnement"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D173</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#R1_reliure_origine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#R1_reliure_origine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Restauration"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T362</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#R2_remplacement_identique -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#R2_remplacement_identique">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Restauration"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T364</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#R3_reliure_conservation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#R3_reliure_conservation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Restauration"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T363</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#R_Restauration_reliure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#R_Restauration_reliure">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/Dalgology#R_Restauration_reliure."/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Restauration"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T462</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#R_Restauration_reliure. -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#R_Restauration_reliure.">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Restauration"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T83</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#Rayures -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#Rayures">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Support"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D145</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#Rayures_circulaires -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#Rayures_circulaires">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Support"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D146</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#Refus_CQ -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#Refus_CQ">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Traitement"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T201</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#Reliure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#Reliure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Traitement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#Reliure_léger -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#Reliure_léger">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#J_Maintenance_moins_2_heures"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#Reliure_main -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#Reliure_main">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Reliure"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#Reliure_mécanisée -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#Reliure_mécanisée">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Reliure"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#Reproduction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#Reproduction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Traitement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#Restauration -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#Restauration">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Traitement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#Salissures -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#Salissures">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Garde_sup"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D71</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#Signal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#Signal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Dégradation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#Structure_couture -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#Structure_couture">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Corps"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#Support -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#Support">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Dégradation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#Support.Salissures -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#Support.Salissures">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Support"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D143</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#Support_inondé -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#Support_inondé">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Support"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D157</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#T0_Ever. -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#T0_Ever.">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Reliure_mécanisée"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T1</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#T2_Reliure_mécanisée._Couture_sur_cahiers -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#T2_Reliure_mécanisée._Couture_sur_cahiers">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Couture"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T3</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#T2_Reliure_mécanisée._Couture_sur_encarté -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#T2_Reliure_mécanisée._Couture_sur_encarté">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/Dalgology#T2/2_Reliure_mécanisée._Couture_sur_encarté"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Couture"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T262</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#T3_Reliure_mécanisée._Couture_sur_surjets -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#T3_Reliure_mécanisée._Couture_sur_surjets">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Couture"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T4</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#T4_Reliure_mécanisée._Traitement_encarté -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#T4_Reliure_mécanisée._Traitement_encarté">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Couture"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T5</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#T5_Reliure_mécanisée._Hors_norme -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#T5_Reliure_mécanisée._Hors_norme">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Reliure_mécanisée"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T6</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#T6_Ev._Ever. -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#T6_Ev._Ever.">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Reliure_mécanisée"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T7</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#T6_Reliure_mécanisée._Mobile -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#T6_Reliure_mécanisée._Mobile">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Reliure_mécanisée"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T84</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#T7_Reliure_mécanisée._ACLE -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#T7_Reliure_mécanisée._ACLE">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#T6_Reliure_mécanisée._Mobile"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T85</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#Titrage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#Titrage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Degradation_Couvrure"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#Trace_de_dépôts -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#Trace_de_dépôts">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Support"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D160</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#Traitement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#Traitement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#événement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#Traitement_papier -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#Traitement_papier">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Traitement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#Usure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#Usure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Degradation_Conditionnement"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Garde_sup"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D70</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#V0_à_changer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#V0_à_changer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Support"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D163</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#Voilé -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#Voilé">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Support"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D151</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#X1_Désacidification._Hydroxyde_de_calcium -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#X1_Désacidification._Hydroxyde_de_calcium">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#désacidification"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/Dalgology#X2_Désacidification._De_masse"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T86</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#X2_Désacidification._De_masse -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#X2_Désacidification._De_masse">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#désacidification"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T87</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#Z1_Désinfection._De_masse -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#Z1_Désinfection._De_masse">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Traitement"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T88</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#_B11_Conditionnement._Boîte_légère_sur_mesure_avec_comblage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#_B11_Conditionnement._Boîte_légère_sur_mesure_avec_comblage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#_B12_Conditionnement._Boîte_légère_sur_mesure"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T22</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#_B12_Conditionnement._Boîte_légère_sur_mesure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#_B12_Conditionnement._Boîte_légère_sur_mesure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Boîte"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T23</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#_B2_Conditionnement._Chemise_sur_mesure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#_B2_Conditionnement._Chemise_sur_mesure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Conditionnement"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T24</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#_B4_Conditionnement._Pochette_sur_mesure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#_B4_Conditionnement._Pochette_sur_mesure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Pochette"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T26</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#_B5_Conditionnement._Classeur -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#_B5_Conditionnement._Classeur">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Conditionnement"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T27</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#_B6_Conditionnement._Boîte_main_en_carton_habillé_type_BnF -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#_B6_Conditionnement._Boîte_main_en_carton_habillé_type_BnF">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Boîte"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T28</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#_B7_Conditionnement._Boîte_main_en_carton_habillé_type_BnF_dîte_Mu -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#_B7_Conditionnement._Boîte_main_en_carton_habillé_type_BnF_dîte_Mu">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#_B6_Conditionnement._Boîte_main_en_carton_habillé_type_BnF"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T29</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#_J11_Maintenance._Couverture_cuir_niveau_1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#_J11_Maintenance._Couverture_cuir_niveau_1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Maintenance_cuir"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T58</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#_J12_Maintenance._Couverture_cuir_niveau_2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#_J12_Maintenance._Couverture_cuir_niveau_2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Maintenance_cuir"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T59</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#_J21_Maintenance._Couverture_papier_niveau_2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#_J21_Maintenance._Couverture_papier_niveau_2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#_J20_Maintenance._Couverture_papier/parchemin_niveau_1"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T61</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#_J22_Maintenance._Couverture_parchemin_niveau_2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#_J22_Maintenance._Couverture_parchemin_niveau_2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#_J20_Maintenance._Couverture_papier/parchemin_niveau_1"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T62</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#_J31_Maintenance._Couverture_toile_niveau_1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#_J31_Maintenance._Couverture_toile_niveau_1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Maintenance_toile"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T63</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#_J32_Maintenance._Couverture_toile_niveau_2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#_J32_Maintenance._Couverture_toile_niveau_2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Maintenance_toile"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T64</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#_K1_Réparation_reliure._Japon_niveau_1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#_K1_Réparation_reliure._Japon_niveau_1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Japon"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T68</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#_K2_Réparation_reliure._Japon_niveau_2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#_K2_Réparation_reliure._Japon_niveau_2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Japon"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T69</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#_K3_Réparation_reliure._Cuir -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#_K3_Réparation_reliure._Cuir">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Cuir"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T70</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#désacidification -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#désacidification">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Traitement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#événement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#événement"/>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#*P* -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#*P*">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Traitement"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T402</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#A1_Réemboîtage._Dans_couverture_d&apos;origine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#A1_Réemboîtage._Dans_couverture_d&apos;origine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#K_réparation_reliure"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T20</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#B4_Pochette_synthétique/document_d&apos;accompagnement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#B4_Pochette_synthétique/document_d&apos;accompagnement">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/Dalgology#_B3_Conditionnement._Mise_en_pochette_document_d&apos;accompagnement"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Pochette"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T306</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#BLER_supérieur_à_220_(CD_audio)_BLER_supérieur_à_50_(CD_Rom) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#BLER_supérieur_à_220_(CD_audio)_BLER_supérieur_à_50_(CD_Rom)">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Signal"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D166</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#Boîte_/_pochette_décollée -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#Boîte_/_pochette_décollée">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Degradation_Conditionnement"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D176</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#CORPS.TRACE/IMPRESSION.Dégradé -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#CORPS.TRACE/IMPRESSION.Dégradé">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Trace/Impression"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D122</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#CORPS.TRACE/IMPRESSION.Illisible -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#CORPS.TRACE/IMPRESSION.Illisible">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Trace/Impression"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D123</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#CORPS.TRACE/IMPRESSION.Pulvérulent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#CORPS.TRACE/IMPRESSION.Pulvérulent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Trace/Impression"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D121</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#Corps_d&apos;ouvrage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#Corps_d&apos;ouvrage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Consolidation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#D60_Débrochage._Mono._Montage_couverture_à_l&apos;intérieur -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#D60_Débrochage._Mono._Montage_couverture_à_l&apos;intérieur">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Montage_couverture"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T11</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#D61_Débrochage._Pério._montage_couverture_1_fasc._à_l&apos;intérieur -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#D61_Débrochage._Pério._montage_couverture_1_fasc._à_l&apos;intérieur">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Montage_couverture"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T222</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#D62_Débrochage._Pério._montage_couverture_2_fasc._à_l&apos;intérieur -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#D62_Débrochage._Pério._montage_couverture_2_fasc._à_l&apos;intérieur">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Montage_couverture"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T223</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#D63_Débrochage._Pério._montage_couverture_3_fasc._à_l&apos;intérieur -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#D63_Débrochage._Pério._montage_couverture_3_fasc._à_l&apos;intérieur">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Montage_couverture"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T224</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#D64_Débrochage._Pério._montage_couverture_4_fasc._à_l&apos;intérieur -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#D64_Débrochage._Pério._montage_couverture_4_fasc._à_l&apos;intérieur">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Montage_couverture"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T225</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#D65_Débrochage._Pério._montage_couverture_5_fasc._à_l&apos;intérieur -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#D65_Débrochage._Pério._montage_couverture_5_fasc._à_l&apos;intérieur">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Montage_couverture"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T226</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#Document_d&apos;accompagnement_inondé -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#Document_d&apos;accompagnement_inondé">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Accompagnement"/>
+        <Id>D185</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#Drop_out_:_taux_trop_élevé -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#Drop_out_:_taux_trop_élevé">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Signal"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D168</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#E5_Equipement_léger._Traitement_document_d&apos;accompagnement_CD_audio -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#E5_Equipement_léger._Traitement_document_d&apos;accompagnement_CD_audio">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Avec_plastification"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T44</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#E_32_+_de_0 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#E_32_+_de_0">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Signal"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D167</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#G11_Reproduction_16/35_mm._Reproduction_n&amp;b_16_mm_1_page/image -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#G11_Reproduction_16/35_mm._Reproduction_n&amp;b_16_mm_1_page/image">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Reproduction"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T48</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#G12_Reproduction_16/35_mm._Reproduction_n&amp;b_16_mm_2_pages/image -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#G12_Reproduction_16/35_mm._Reproduction_n&amp;b_16_mm_2_pages/image">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Reproduction"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T101</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#G21N_Reproduction_n&amp;b_35_mm_1_page/image_Consultation_négative -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#G21N_Reproduction_n&amp;b_35_mm_1_page/image_Consultation_négative">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Reproduction"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T49</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#G21P_Reproduction_n&amp;b_35_mm_1_page/image_Consultation_positive -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#G21P_Reproduction_n&amp;b_35_mm_1_page/image_Consultation_positive">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Reproduction"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T143</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#G22N_Reproduction_n&amp;b_35_mm_2_pages/image_Consultation_négative -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#G22N_Reproduction_n&amp;b_35_mm_2_pages/image_Consultation_négative">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Reproduction"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T50</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#G22P_Reproduction_n&amp;b_35_mm_2_pages/image_Consultation_positive -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#G22P_Reproduction_n&amp;b_35_mm_2_pages/image_Consultation_positive">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Reproduction"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T142</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#H0_Numérisation_/_CD -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#H0_Numérisation_/_CD">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Numérisation"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T121</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#I01_Epub/DAISY -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#I01_Epub/DAISY">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Traitement"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T549</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#J5_Insertion_d&apos;errata -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#J5_Insertion_d&apos;errata">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Maintenance_corps_d&apos;ouvrage"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T293</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#J6_Décollage_d&apos;étiquettes_codes-barres -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#J6_Décollage_d&apos;étiquettes_codes-barres">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Maintenance_couverture"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T286</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#K5_Traitement_corps_d&apos;ouvrage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#K5_Traitement_corps_d&apos;ouvrage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Corps_d&apos;ouvrage"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T294</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#Maintenance_corps_d&apos;ouvrage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#Maintenance_corps_d&apos;ouvrage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#J_Maintenance_moins_2_heures"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#Problème_d&apos;ergots -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#Problème_d&apos;ergots">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Degradation_Conditionnement"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D172</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#RF_:_taux_trop_élevé -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#RF_:_taux_trop_élevé">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Signal"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D169</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#T1_Reliure_mécanisée._Coupé/collé -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#T1_Reliure_mécanisée._Coupé/collé">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Reliure_mécanisée"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T2</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#T2/2_Reliure_mécanisée._Couture_sur_encarté -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#T2/2_Reliure_mécanisée._Couture_sur_encarté">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Couture"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T242</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#Trace/Impression -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#Trace/Impression">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Corps"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#Traces_d&apos;encre -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#Traces_d&apos;encre">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Support"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D161</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#_B3_Conditionnement._Mise_en_pochette_document_d&apos;accompagnement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#_B3_Conditionnement._Mise_en_pochette_document_d&apos;accompagnement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Pochette"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T25</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#_J20_Maintenance._Couverture_papier/parchemin_niveau_1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#_J20_Maintenance._Couverture_papier/parchemin_niveau_1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Maintenance_couverture"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T60</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#_J4_Maintenance._Corps_d&apos;ouvrage_document_en_feuille -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#_J4_Maintenance._Corps_d&apos;ouvrage_document_en_feuille">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Maintenance_corps_d&apos;ouvrage"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T65</Id>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Dalgology#_J5_Maintenance._Corps_d&apos;ouvrage_document_relié/broché -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Dalgology#_J5_Maintenance._Corps_d&apos;ouvrage_document_relié/broché">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Dalgology#Maintenance_corps_d&apos;ouvrage"/>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T66</Id>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#A2_Réemboîtage._Dans_nouvelle_couverture"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#Cuir"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#Japon"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#K3_Rattachement_de_plats"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#K4_Remboîtage"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#A1_Réemboîtage._Dans_couverture_d&apos;origine"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#Adresse"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#Autre"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#Code_barre"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#Cotation"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#Boîte_déchirée"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#Boîte_métallique"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#Boîtier_cassé"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#Conditionnement_insuffisant_pour_2_disques"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#Digipak"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#Dégradé"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#Inadapté"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#Pochette_carton_inadéquate"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#Pochette_disque_inadéquate"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#Pochette_moisie"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#Pochette_papier_inadéquate"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#Pochette_plastique_inadéquate"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#Présence_de_mousses"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#Usure"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#Boîte_/_pochette_décollée"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#Problème_d&apos;ergots"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#C1_Couvrure._Pleine_toile"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#C2_Couvrure._Demi-toile"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#C31_Couvrure._Peau_plein-chagrin"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#C32_Couvrure._Peau_plein-veau"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#C33_Couvrure._Peau_plein-maroquin"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#C34_Couvrure._Peau_plein-parchemin"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#C35_Couvrure._Peau_plein-buffle"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#C3_Ever"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#C41_Couvrure._Peau_demi-chagrin"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#C42_Couvrure._Peau_demi-veau"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#C43_Couvrure._Peau_demi-maroquin"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#C44_Couvrure._Peau_demi-parchemin"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#C45_Couvrure._Peau_demi-buffle"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#C4_Ever."/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#C51_avec_Couverture__Broché_Collée"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#C5_Couvrure._Plein_papier"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#C6_Ever."/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#C7_Ever."/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#C8_Ever."/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#CORPS.HORSTEXTE.Dégradé"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#CORPS.HORSTEXTE.Détaché"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#CORPS.HORSTEXTE.Manquant"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#CORPS.PAPIER.Acide"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#CORPS.PAPIER.Déchirures"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#CORPS.PAPIER.Dédoublement"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#CORPS.PAPIER.Déformé"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#CORPS.PAPIER.Fragilisé"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#CORPS.PAPIER.Lacunes"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#CORPS.PAPIER.Matériaux_répar._Inadéquats"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#CORPS.PAPIER.Mouillures"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#CORPS.PAPIER.Pliures"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#CORPS.PAPIER.Ruines_et_miettes"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#CORPS.PAPIER.Salissures"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#COUV.COIFFEINF.Dégradé"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#COUV.COIFFEINF.Détaché_complètement"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#COUV.COIFFEINF.Détaché_partiellement"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#COUV.COIFFEINF.Manquante"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#COUV.COIFFESUP.Dégradé"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#COUV.COIFFESUP.Détaché_complètement"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#COUV.COIFFESUP.Détaché_partiellement"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#COUV.COIFFESUP.Manquante"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#COUV.COINS.Déformés"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#COUV.COINS.Emoussés"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#COUV.COINS.Lacunes"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#COUV.COINS.Usure"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#COUV.DOS.Déchirures"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#COUV.DOS.Décollement"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#COUV.DOS.Dégradé"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#COUV.DOS.Détaché_complètement"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#COUV.DOS.Détaché_partiellement"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#COUV.DOS.Fragilisé"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#COUV.DOS.Lacunes"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#COUV.DOS.Manquant"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#COUV.DOS.Matériaux_répar._Inadéquats"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#COUV.DOS.Mouillures"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#COUV.DOS.Salissures"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#COUV.DOS.Usure"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#COUV.MORSINF.Coupé_complètement"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#COUV.MORSINF.Coupé_partiellement"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#COUV.MORSINF.Usure"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#COUV.MORSSUP.Coupé_complètement"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#COUV.MORSSUP.Coupé_partiellement"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#COUV.MORSSUP.Usure"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#COUV.PLATINF.Déchirures"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#COUV.PLATINF.Décollement"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#COUV.PLATINF.Dégradé"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#COUV.PLATINF.Détaché_complètement"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#COUV.PLATINF.Détaché_partiellement"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#COUV.PLATINF.Fragilisé"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#COUV.PLATINF.Lacunes"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#COUV.PLATINF.Manquant"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#COUV.PLATINF.Matériaux_répar._inadéquats"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#COUV.PLATINF.Mouillures"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#COUV.PLATINF.Salissures"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#COUV.PLATINF.Usure"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#COUV.PLATSUP.Déchirures"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#COUV.PLATSUP.Décollement"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#COUV.PLATSUP.Dégradé"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#COUV.PLATSUP.Détaché_complètement"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#COUV.PLATSUP.Détaché_partiellement"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#COUV.PLATSUP.Fragilisé"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#COUV.PLATSUP.Lacunes"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#COUV.PLATSUP.Manquant"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#COUV.PLATSUP.Matériaux_répar._inadéquats"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#COUV.PLATSUP.Mouillures"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#COUV.PLATSUP.Salissures"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#COUV.PLATSUP.Usure"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#COUV.TITRAGE.Détaché"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#COUV.TITRAGE.Erroné"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#COUV.TITRAGE.Illisible"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#COUV.TITRAGE.Manquant"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#Cahiers"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#Feuillets"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#Hors_texte"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#Papier"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#Structure_couture"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#Trace/Impression"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#Charniere_inf"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#Charniere_sup"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#Contreplat_inf"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#Contreplat_sup"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#Garde_inf"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#Garde_sup"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#Clivage"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#Doublage"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#P10_Traitement_de_masse_du_papier._Colmatage_seul"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#Coiffeinf"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#Coiffesup"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#Coins"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#Dos"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#Jaquette"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#Mors_inf"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#Mors_sup"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#Plat_inf"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#Plat_sup"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#Titrage"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#Conditionnement"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#Consolidation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#Couvrure"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#Débrochage"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#Equipement_léger"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#J_Maintenance_moins_2_heures"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#Maintenance_titrage"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#Numérisation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#OCR"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#Refus_CQ"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#Reliure"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#Reproduction"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#Traitement_papier"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#Z1_Désinfection._De_masse"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#*P*"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#I01_Epub/DAISY"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#D1_Débrochage._Feuillets"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#D2_Débrochage._Cahiers"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#D3_Débrochage._Surjeté"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#D4_Débrochage._Encarté"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#D5_Débrochage._Hors-norme"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#Document_papier_à_restaurer"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#Jaquette_inondée"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#Document_d&apos;accompagnement_inondé"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#E2_Equipement_léger._Plastification_adhésive"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#E3_Equipement_léger._Jaquette_sous_liseuse"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#E4_Equipement_léger._Plastification_encarté"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#E7_Equipement_léger._Plastification_document_en_feuille"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#E5_Equipement_léger._Traitement_document_d&apos;accompagnement_CD_audio"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#ETIQUETTE.ADRESSE.Dégradé"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#ETIQUETTE.ADRESSE.Détaché"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#ETIQUETTE.ADRESSE.Illisible"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#ETIQUETTE.ADRESSE.Manquant"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#ETIQUETTE.AUTRE.Dégradé"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#ETIQUETTE.AUTRE.Détaché"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#ETIQUETTE.AUTRE.Illisible"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#ETIQUETTE.AUTRE.Manquant"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#ETIQUETTE.CODEBARRE.Dégradé"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#ETIQUETTE.CODEBARRE.Détaché"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#ETIQUETTE.CODEBARRE.Illisible"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#ETIQUETTE.CODEBARRE.Manquant"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#ETIQUETTE.COTATION.Dégradé"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#ETIQUETTE.COTATION.Détaché"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#ETIQUETTE.COTATION.Illisible"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#ETIQUETTE.COTATION.Manquant"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#F1N_Reproduction_105_mm._Copie_de_consultation_négative"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#F1P_Reproduction_105_mm._Copie_de_consultation_positive"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#F1_Microfiche_noir_et_blanc"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#F2_Microfiche_couleur"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#GARDES.CONTREPLATINF.Déchirures"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#GARDES.CONTREPLATINF.Décollement"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#GARDES.CONTREPLATINF.Fragilisé"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#GARDES.CONTREPLATINF.Lacunes"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#GARDES.CONTREPLATINF.Manquant"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#GARDES.CONTREPLATINF.Matériaux_répar._inadéquats"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#GARDES.CONTREPLATINF.Mouillures"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#GARDES.CONTREPLATINF.Salissures"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#GARDES.CONTREPLATINF.Usure"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#GARDES.CONTREPLATSUP.Déchirures"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#GARDES.CONTREPLATSUP.Décollement"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#GARDES.CONTREPLATSUP.Fragilisé"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#GARDES.CONTREPLATSUP.Lacunes"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#GARDES.CONTREPLATSUP.Manquant"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#GARDES.CONTREPLATSUP.Matériaux_répar._Inadéquats"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#GARDES.CONTREPLATSUP.Mouillures"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#GARDES.CONTREPLATSUP.Salissures"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#GARDES.CONTREPLATSUP.Usure"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#GARDES.GARDEINF.Déchirures"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#GARDES.GARDEINF.Fragilisé"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#GARDES.GARDEINF.Lacunes"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#GARDES.GARDEINF.Manquant"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#GARDES.GARDEINF.Matériaux_répar._Inadéquats"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#GARDES.GARDEINF.Mouillures"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#GARDES.GARDEINF.Pliures"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#GARDES.GARDEINF.Salissures"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#GARDES.GARDEINF.Usure"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#H1_Numérisation._Document_papier"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#H2_Numérisation._Microfilm"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#H3_Numérisation._Microfiche"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#H4_Numérisation._Prise_de_vue_numérique_et_micrographique"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#N01_Numérisation_de_masse"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#N101_numérisation_standard"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#N102_Numérisation_relié_en_partie_fragile"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#N103_Numérisation_relié_difficile"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#H0_Numérisation_/_CD"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#L1_Maintenance_titrage._Création_titrage"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#L2_Maintenance_titrage._Création_pièce_de_titre"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#L31_Maintenance_titrage._Remplacement_1_pièce_de_titre"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#L32_Maintenance_titrage._Remplacement_2_pièces_de_titre"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#L3_Maintenance_titrage._Remplacement_pièce_de_titre"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#L4_Maintenance_titrage._Correction_titrage"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#L5_Maintenance_titrage._Reprise_dorure"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#M1_Reliure_main._Couture_sur_cahiers"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#M2_Reliure_main._Couture_sur_surjets"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#M3_Reliure_main._Sur_nerfs"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#M4_Reliure_main._Couture_sur_onglet"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#M5_Reliure_main._Couture_sur_toile"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#O01_OCR_type_A"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#O02_OCR_type_B"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#O03_OCR_type_C"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#O04_OCR_type_D"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#O05_OCR_type_E"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#O06_OCR_type_F"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#O07_OCR_type_G"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#O08_OCR_type_H"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#O09_OCR_type_I"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#O10_OCR_type_J"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#P2_Traitement_de_masse_du_papier._Renforcement_par_doublage"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#P3__doublage_thermocollage"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#P4_doublage_japon"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#R1_reliure_origine"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#R2_remplacement_identique"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#R3_reliure_conservation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#R_Restauration_reliure"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#R_Restauration_reliure."/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#BLER_supérieur_à_220_(CD_audio)_BLER_supérieur_à_50_(CD_Rom)"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#Drop_out_:_taux_trop_élevé"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#E_32_+_de_0"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#RF_:_taux_trop_élevé"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#CORPS.TRACE/IMPRESSION.Dégradé"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#CORPS.TRACE/IMPRESSION.Illisible"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#CORPS.TRACE/IMPRESSION.Pulvérulent"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#D60_Débrochage._Mono._Montage_couverture_à_l&apos;intérieur"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#D61_Débrochage._Pério._montage_couverture_1_fasc._à_l&apos;intérieur"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#D62_Débrochage._Pério._montage_couverture_2_fasc._à_l&apos;intérieur"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#D63_Débrochage._Pério._montage_couverture_3_fasc._à_l&apos;intérieur"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#D64_Débrochage._Pério._montage_couverture_4_fasc._à_l&apos;intérieur"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#D65_Débrochage._Pério._montage_couverture_5_fasc._à_l&apos;intérieur"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#G11_Reproduction_16/35_mm._Reproduction_n&amp;b_16_mm_1_page/image"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#G12_Reproduction_16/35_mm._Reproduction_n&amp;b_16_mm_2_pages/image"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#G21N_Reproduction_n&amp;b_35_mm_1_page/image_Consultation_négative"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#G21P_Reproduction_n&amp;b_35_mm_1_page/image_Consultation_positive"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#G22N_Reproduction_n&amp;b_35_mm_2_pages/image_Consultation_négative"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/Dalgology#G22P_Reproduction_n&amp;b_35_mm_2_pages/image_Consultation_positive"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
